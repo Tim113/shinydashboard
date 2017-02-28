@@ -1,3 +1,81 @@
+/* BOOTSTRAP.CSS CHANGES */
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.form-group {
+  margin-bottom: 0;
+}
+/* consistency with bootstrap.css for selectize.js */
+.selectize-control {
+  margin-bottom: 0;
+}
+/* Make change background colour*/
+.modal-content {
+  position: relative;
+  background-color: #f0f0f0;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 6px;
+  outline: 0;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+          box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+/* Bring Modal padding in line with the rest of Sheppey*/
+.modal-body {
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* Set the header and footer background color */
+.modal-header {
+  padding: 5px;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+.modal-footer {
+  padding: 5px;
+  background-color: #fff;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+/* Make the large box actually large */
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 600px;
+    margin: 10px auto;
+  }
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  }
+  .modal-sm {
+    width: 300px;
+  }
+}
+@media (min-width: 1292px) {
+  .modal-lg {
+    width: 1200px;
+  }
+}
+/* BOOTSTRAP.CSS CHANGES END */
+
 @font-face {
   font-family: 'Source Sans Pro';
   font-style: normal;
